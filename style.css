@@ -1,0 +1,75 @@
+
+#home{
+    margin-top: 100px;
+    display: flex;
+   flex-direction: column; 
+   padding: 3px 200px;
+   height: 570px;
+   justify-content: center;
+   align-items: center;
+}
+
+#home{
+    height: 800px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('university.webp');
+    background-position: center;
+    background-size:  cover;
+    text-align: center;
+    color: #fff;
+}
+#home p{
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#home h2{
+    color: white;
+    text-align: center;
+    font-size: 1.35rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub-header{
+    margin-top: 100px;
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('university.webp');
+    background-position: center;
+    background-size:  cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    padding: 100px
+}
+/* committee  */
+#committe{
+    margin: 34px;
+    display: flex;
+}
+#committe .box{
+    border: 2px solid #e91e63;
+    padding: 34px;
+    margin: 3px 55px;
+    border-radius: 23px;
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+#committe .box img{
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+#committe .box p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.center{
+    text-align: center;
+}
